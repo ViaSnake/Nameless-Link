@@ -1,0 +1,35 @@
+{
+  "EnglishUK": {
+    "success": "成功",
+    "failed": "失敗",
+    "settings": "設定",
+    "pending": "保留中",
+    "commands": "コマンド",
+    "help": "ヘルプ",
+
+    "invalid_command": "無効なコマンドです。 有効なコマンド: \n`!url`, \n`!verify`",
+
+    "verification_title": "検証",
+    "verification_usage": "使い方: `!verify <トークン>`",
+    "verification_token_invalid": "アカウントの検証に失敗しました。",
+    "verification_not_used": "アカウントを検証できません。このボットを使用していないウェブサイトの検証トークンを提供しました。",
+    "verification_error": "アカウントの検証中にエラーが発生しました。",
+    "verification_success": "検証ありがとうございます、アカウントがリンクされました。",
+
+    "apiurl_title": "API URLを設定",
+    "apiurl_usage": "使い方: `!url <guild id> <api url>`",
+    "apiurl_success": "Discordサーバーは、NamelessMCウェブサイトへのリンクに成功しました。",
+    "apiurl_guild_invalid": "提供されたguild IDは無効です。",
+    "apiurl_url_malformed": "提供されたAPI URLが不正な形式です。",
+    "apiurl_not_owner": "API URLを変更するには、Discordサーバーのオーナーである必要があります",
+    "apiurl_failed_connection": "ウェブサイトに接続できませんでした。提供されたAPI URLが無効であるか、プロキシ（cloudflareなど）によってブロックされていることを意味します。",
+    "apiurl_success_updated": "API URLの変更に成功しました。",
+    "apiurl_success_new": "API URLの設定に成功しました。",
+    "apiurl_error": "ボットをNamelessMCのウェブサイトにリンクしようとしたときにエラーが発生しました。",
+
+    "guild_join_success": "こんにちは！ NamelessMC ボットをご利用いただきありがとうございます。 開始するには `StaffCP -> 設定 -> API` のURLを `!url ` に続けて返信してください。",
+    "guild_join_failed_db": "こんにちは！ NamelessMC ボットをご利用いただきありがとうございます。 ギルドをセットアップしようとしましたが、失敗しました。",
+    "guild_join_needs_renew": "こんにちは！ NamelessMC ボットをご利用いただきありがとうございます。 API URLは設定済みのようですが、機能しなくなっています。API URLは `StaffCP -> 設定 -> API` にあるので、 `!url ` の後にAPI URLをつけて返信してください。",
+    "guild_join_welcome_back": "こんにちは！ NamelessMC ボットをご利用いただきありがとうございます。 API URLはすでに設定済みのようです。おかえりなさい。"
+  }
+}
